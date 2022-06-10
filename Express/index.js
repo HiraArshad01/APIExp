@@ -43,19 +43,19 @@ app.get("/api/product", function(req, res){
 app.get("/api/product/:index", function(req, res){
     if(!product[req.params.index])
     return res.status(400).send("Product not found");
-    res.send(product[req.params.index]);
+    res.json(product[req.params.index]);
 });
 
 app.put("/api/product/:index", function(req, res){
     //console.log(req.body);
     product[req.params.index] = req.body.name;
-    res.send(product[req.params.index]);
+    res.json(product[req.params.index]);
 });
 
 app.delete("/api/product/:index", function(req, res){
     //console.log(req.body);
     product.splice(req.params.index,1);
-    res.send(product);
+    res.json(product);
 });
 
 
