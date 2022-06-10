@@ -2,7 +2,33 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const product = ["Pizza","Cake","Burger"]; 
+const product = [{
+    "productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+    {"productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+    {"productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+    {"productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+   { "productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+   { "productName": "Classy black T-shirt(000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2700/- "
+},
+
+]; 
 
 app.get("/",function(req, res){
     res.json("Hello World");
@@ -10,7 +36,7 @@ app.get("/",function(req, res){
 
 //for whole array
 app.get("/api/product", function(req, res){
-    res.send(product);
+    res.json(product);
 });
 
 //for 1 record get
