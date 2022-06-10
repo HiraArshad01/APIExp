@@ -5,7 +5,7 @@ app.use(express.json());
 const product = ["Pizza","Cake","Burger"]; 
 
 app.get("/",function(req, res){
-    res.send("Hello World");
+    res.json("Hello World");
 });
 
 //for whole array
