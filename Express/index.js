@@ -9,29 +9,29 @@ app.use(cors());
 
 
 const product = [{
-    "productName": "Classy black T-shirt(000002)",
+    "productName": "Monster T-shirt (000001)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "2600/- "
+},
+    {"productName": "Classy black T-shirt (000002)",
+    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
+    "price": "3000/- "
+},
+    {"productName": "Keep It Cool T-Shirt (000003)",
     "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
     "price": "2700/- "
 },
-    {"productName": "Classy black T-shirt(000002)",
+    {"productName": "Bloodline T-Shirt (000004)",
     "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
-    "price": "2700/- "
+    "price": "1600/- "
 },
-    {"productName": "Classy black T-shirt(000002)",
+   { "productName": "Lining T-Shirt (000005)",
     "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
-    "price": "2700/- "
+    "price": "3000/- "
 },
-    {"productName": "Classy black T-shirt(000002)",
+   { "productName": "GIVENCY T-Shirt (000006)",
     "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
-    "price": "2700/- "
-},
-   { "productName": "Classy black T-shirt(000002)",
-    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
-    "price": "2700/- "
-},
-   { "productName": "Classy black T-shirt(000002)",
-    "description": "Stuff: Cotton Jersey Type: Round Neck, Fit: Regular Fit, Slim Fit Quality: Easy, Soft and Comfortable Export Quality",
-    "price": "2700/- "
+    "price": "2800/- "
 },
 
 ]; 
