@@ -1,6 +1,12 @@
+console.clear();
+
 const express = require('express');
 const app = express();
 app.use(express.json());
+
+const cors = require('cors');
+app.use(cors());
+
 
 const product = [{
     "productName": "Classy black T-shirt(000002)",
